@@ -3,8 +3,11 @@
     width: 200px;
    
 }
+span{
+    color: #fff;
+}
 
-.sidenav  a  {
+.sidenav  a i {
 color: #fff;
 }
 

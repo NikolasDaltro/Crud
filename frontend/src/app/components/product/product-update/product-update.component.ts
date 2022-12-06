@@ -18,10 +18,10 @@ constructor(
    private route: ActivatedRoute){}
 
 ngOnInit(): void {
-  const id = this.route.snapshot.paramMap.get('id')
+  const id = +this.route.snapshot.paramMap.get('id')
   this.productService.readById(id).subscribe(product => {
     this.product = product
-  });
+  })
 }
 updateProduct():void{
 this.productService.update(this.product).subscribe(() =>{

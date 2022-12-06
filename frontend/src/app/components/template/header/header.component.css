@@ -4,6 +4,7 @@
 }
 
 .header a{
+    color: black;
     display: flex;
     align-items: center;
     text-decoration: none;
